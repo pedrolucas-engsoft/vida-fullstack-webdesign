@@ -47,9 +47,21 @@
     }
 }
 
-@media(max-width: 465px) {
+@media(max-width: 450px) {
     .container {
         width: 290px;
+    }
+    header nav {
+        background: #fff;
+        width: 100%;
+        padding: 10px 0 20px;
+        box-shadow: 0 10px 10px rgba(0,0,0, 0.15);
+    }
+    header nav ul{
+        flex-direction: column;
+    }
+    header nav ul li {
+        padding: 10px 0;
     }
 }
 
