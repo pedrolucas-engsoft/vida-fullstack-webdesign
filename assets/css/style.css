@@ -2,31 +2,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
 
 /*Components*/
+@import "./bootstrap.css";
 @import "./header.css";
 @import "./buttons.css";
 @import "./main.css";
+@import "./footer.css";
+@import "./responsive-background.css";
+@import "./responsive-elements.css";
 
-/*Reset CSS*/
-*{ 
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 100%;
-    font: inherit;
-    font-family: "Source Sans 3", serif;
-    font-weight: 400;
-    vertical-align: baseline;
-    text-decoration: none;
-}
-
-.container{
-    width: 1024px;
-    margin: 30px auto;
-    display: flex;
-    flex-direction: column;
-}
-
-.row{
-    display: flex;
-    flex-direction: row;
-}
